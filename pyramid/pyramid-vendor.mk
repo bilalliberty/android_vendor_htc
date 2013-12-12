@@ -17,4 +17,4 @@
 # Pick up overlay for features that depend on non-open-source files
 DEVICE_PACKAGE_OVERLAYS := vendor/htc/pyramid/overlay
 
-$(call inherit-product, vendor/htc-pyramid/pyramid/pyramid-vendor-blobs.mk)
+$(call inherit-product, vendor/htc-extra/pyramid/pyramid-vendor-blobs.mk)
